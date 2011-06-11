@@ -7,7 +7,7 @@ namespace Gzaas;
  * THIS PROGRAM COMES WITH ABSOLUTELY NO WARANTIES !
  * USE IT AT YOUR OWN RISKS !
  *
- * @author Gonzalo Ayuso <gonzalo123@gmail.com>
+ * @author Gonzalo Ayuso <http://gonzalo123.wordpress.com>
  * @copyright under GPL 2 licence
  */
 
