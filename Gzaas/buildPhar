@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+$location = dirname(__FILE__);
+$phar = $location ."/Gzaas.phar";
+/*
+$phar = $location ."/Gzaas.phar";
+
+if (file_exists($phar)) {
+    Phar::unlinkArchive($phar);
+}
+
+$p = new Phar($phar);
+$p->compressFiles(Phar::GZ);
+$p->setSignatureAlgorithm(Phar::SHA1);
+$p->buildFromDirectory($location);
+*/
+
+
+// create with alias "project.phar"
+$phar = new Phar($phar);
+// add all files in the project
+$phar->buildFromDirectory($location);
+
