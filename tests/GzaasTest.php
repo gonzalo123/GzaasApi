@@ -4,7 +4,7 @@ use Gzaas\Api;
 
 class GzaasTest extends PHPUnit_Framework_TestCase
 {
-    public function testLists()
+    public function testFonts()
     {
         $fonts = Api\Fonts::factory()->getAll(Api::FEATURED);
         $this->assertTrue(count($fonts) > 0);
