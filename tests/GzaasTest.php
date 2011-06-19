@@ -12,14 +12,14 @@ class GzaasTest extends PHPUnit_Framework_TestCase
 
     public function testStyles()
     {
-        $fonts = Api\Styles::factory()->getAll(Api::FEATURED);
-        $this->assertTrue(count($fonts) > 0);
+        $styles = Api\Styles::factory()->getAll(Api::FEATURED);
+        $this->assertTrue(count($styles) > 0);
     }
 
     public function testPatterns()
     {
-        $fonts = Api\Patterns::factory()->getAll(Api::FEATURED);
-        $this->assertTrue(count($fonts) > 0);
+        $patterns = Api\Patterns::factory()->getAll(Api::FEATURED);
+        $this->assertTrue(count($patterns) > 0);
     }
 
     public function testCreateRandomStyles()
