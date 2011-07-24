@@ -24,6 +24,8 @@ abstract class Network
         $s = curl_init();
         switch (strtoupper($type)) {
             case self::POST:
+                echo "$url\n";
+                var_dump($queryString);
                 curl_setopt($s, CURLOPT_URL, $url);
                 curl_setopt($s, CURLOPT_POST, true);
                 curl_setopt($s, CURLOPT_POSTFIELDS, $queryString);
