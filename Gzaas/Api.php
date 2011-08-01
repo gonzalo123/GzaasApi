@@ -31,7 +31,7 @@ class Api extends Api\Network
     {
         $params = array('message' => $message);
         
-        if (isset($this->apiKey))      $params['apiKey']      = $this->apiKey;
+        if (isset($this->apikey))      $params['apikey']      = $this->apikey;
         if (isset($this->color))       $params['color']       = $this->color;
         if (isset($this->backColor))   $params['backcolor']   = $this->backColor;
         if (isset($this->backPattern)) $params['backpattern'] = $this->backPattern;
