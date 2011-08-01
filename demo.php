@@ -1,10 +1,10 @@
 <?php
 
 // using phar archive
-include 'Gzaas/Gzaas.phar';
+//include 'Gzaas/Gzaas.phar';
 
 // without phar
-//include 'Gzaas/bootstrap.php';
+include 'Gzaas/bootstrap.php';
 
 use Gzaas\Api;
 
